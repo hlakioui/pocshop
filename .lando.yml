@@ -1,0 +1,29 @@
+name: pocshop
+recipe: symfony
+config:
+  webroot: public
+  php: '8.0'
+  via: nginx
+
+tooling:
+  yarn:
+    service: node
+
+services:
+  node:
+    type: node:14
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database
+    overrides:
+      environment:
+        PMA_HOST: database
+        PMA_USER: root
+        PMA_PASSWORD:
+# https://docs.lando.dev/config/ssh.html#customizing
+keys: false
