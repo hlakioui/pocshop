@@ -80,7 +80,7 @@ Encore
 
 const appAdminConfig = Encore.getWebpackConfig();
 
-
+const [syliusOnePageCheckoutShop] = require('./vendor/sylius/one-page-checkout-plugin/webpack.config')
 
 appAdminConfig.resolve.alias['sylius/ui'] = uiBundleScripts;
 appAdminConfig.resolve.alias['sylius/ui-resources'] = uiBundleResources;
@@ -88,4 +88,4 @@ appAdminConfig.resolve.alias['sylius/bundle'] = syliusBundles;
 appAdminConfig.externals = Object.assign({}, appAdminConfig.externals, { window: 'window', document: 'document' });
 appAdminConfig.name = 'app.admin';
 
-module.exports = [shopConfig, adminConfig, appShopConfig, appAdminConfig];
+module.exports = [shopConfig, adminConfig, appShopConfig, appAdminConfig, syliusOnePageCheckoutShop];
