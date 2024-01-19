@@ -243,6 +243,8 @@ sylius_user:
                     model: App\Entity\User\UserOAuth
 
 sylius_shop:
+    checkout_resolver:
+        enabled: false
     product_grid:
         include_all_descendants: true
 
@@ -252,3 +254,12 @@ sylius_theme:
             scan_depth: 1
             directories:
                 - "%kernel.project_dir%/themes"
+
+
+
+winzou_state_machine:
+    sylius_order_checkout:
+        transitions:
+            complete:
+                from: [payment_selected, payment_skipped, cart]
+                to: completed
