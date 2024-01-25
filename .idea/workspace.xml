@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c064ba0-65bb-40fb-bdd5-5143cc46033a" name="Changes" comment="sylius/multi-source-inventory-plugin">
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/Customer/CustomerRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/Order/OrderRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/Payment/PaymentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/Shipping/ShipmentRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pocshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pocshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/_sylius.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/_sylius.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rector.php" beforeDir="false" afterPath="$PROJECT_DIR$/rector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Channel/Channel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Channel/Channel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Customer/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Customer/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User/AdminUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User/AdminUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,6 +279,7 @@
       <path value="$PROJECT_DIR$/vendor/sylius/customer-service-plugin" />
       <path value="$PROJECT_DIR$/vendor/sylius/loyalty-plugin" />
       <path value="$PROJECT_DIR$/vendor/sylius/multi-source-inventory-plugin" />
+      <path value="$PROJECT_DIR$/vendor/sylius/multi-store-plugin" />
     </include_path>
   </component>
   <component name="ProjectId" id="2b7XdMPaOC1RArPUgeBzpFVhwrI" />
@@ -307,7 +323,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705567179788</updated>
       <workItem from="1705567184664" duration="5501000" />
-      <workItem from="1706178101819" duration="10916000" />
+      <workItem from="1706178101819" duration="12956000" />
     </task>
     <task id="LOCAL-00001" summary="sylius/plus-rbac-plugin">
       <created>1706199152152</created>
@@ -344,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706200579349</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sylius/multi-source-inventory-plugin">
+      <created>1706200660600</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706200660600</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

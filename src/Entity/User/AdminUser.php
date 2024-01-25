@@ -11,6 +11,10 @@ use Sylius\Component\Core\Model\AdminUserInterface as BaseAdminUserInterface;
 use Sylius\PlusRbacPlugin\Domain\Model\AdminUserInterface;
 use Sylius\PlusRbacPlugin\Domain\Model\RoleableTrait;
 use Sylius\PlusRbacPlugin\Domain\Model\ToggleablePermissionCheckerTrait;
+use Sylius\MultiStorePlugin\ChannelAdmin\Domain\Model\AdminChannelAwareTrait;
+use Sylius\MultiStorePlugin\ChannelAdmin\Domain\Model\LastLoginIpAwareInterface;
+use Sylius\MultiStorePlugin\ChannelAdmin\Domain\Model\LastLoginIpAwareTrait;
+use Sylius\Component\Channel\Model\ChannelAwareInterface;
 
 /**
  * @ORM\Entity
@@ -18,10 +22,12 @@ use Sylius\PlusRbacPlugin\Domain\Model\ToggleablePermissionCheckerTrait;
  */
 #[ORM\Entity]
 #[ORM\Table(name: 'sylius_admin_user')]
-class AdminUser extends BaseAdminUser implements BaseAdminUserInterface, AdminUserInterface
+class AdminUser extends BaseAdminUser implements BaseAdminUserInterface, AdminUserInterface,ChannelAwareInterface, LastLoginIpAwareInterface
 {
     use ToggleablePermissionCheckerTrait;
     use RoleableTrait;
+    use AdminChannelAwareTrait;
+    use LastLoginIpAwareTrait;
 
     public function __construct()
     {

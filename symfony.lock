@@ -567,6 +567,19 @@
             "config/routes/sylius_multi_source_inventory_plugin.yaml"
         ]
     },
+    "sylius/multi-store-plugin": {
+        "version": "0.3",
+        "recipe": {
+            "repo": "github.com/Sylius/SyliusRecipes",
+            "branch": "main",
+            "version": "0.2",
+            "ref": "4867834ce38a5267aba613866be1bf1f402310df"
+        },
+        "files": [
+            "config/packages/sylius_multi_store_plugin.yaml",
+            "config/routes/sylius_multi_store_plugin.yaml"
+        ]
+    },
     "sylius/one-page-checkout-plugin": {
         "version": "0.1"
     },

@@ -9,6 +9,9 @@ use Sylius\Component\Core\Model\Customer as BaseCustomer;
 use Sylius\Component\Core\Model\CustomerInterface;
 use Sylius\LoyaltyPlugin\Domain\Model\CustomerInterface as LoyaltyCustomerInterface;
 use Sylius\LoyaltyPlugin\Domain\Model\LoyaltyAwareTrait;
+use Sylius\MultiStorePlugin\CustomerPools\Domain\Model\CustomerInterface as CustomerPoolsCustomerInterface;
+use Sylius\MultiStorePlugin\CustomerPools\Domain\Model\CustomerPoolAwareTrait;
+
 
 
 /**
@@ -17,7 +20,8 @@ use Sylius\LoyaltyPlugin\Domain\Model\LoyaltyAwareTrait;
  */
 #[ORM\Entity]
 #[ORM\Table(name: 'sylius_customer')]
-class Customer extends BaseCustomer implements CustomerInterface, LoyaltyCustomerInterface
+class Customer extends BaseCustomer implements CustomerInterface, LoyaltyCustomerInterface,CustomerPoolsCustomerInterface
 {
     use LoyaltyAwareTrait;
+    use CustomerPoolAwareTrait;
 }

@@ -26,6 +26,7 @@
         "sylius/customer-service-plugin": "^0.3.0",
         "sylius/loyalty-plugin": "^0.3.0",
         "sylius/multi-source-inventory-plugin": "^0.3.0",
+        "sylius/multi-store-plugin": "^0.3.0",
         "sylius/one-page-checkout-plugin": "^0.1.0",
         "sylius/paypal-plugin": "^1.5",
         "sylius/plus-rbac-plugin": "^0.3.0",
