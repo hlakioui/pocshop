@@ -9,6 +9,7 @@ imports:
     
     - { resource: "@SyliusPlusRbacPlugin/config/config.yaml" }
 
+
 parameters:
     sylius_core.public_dir: '%kernel.project_dir%/public'
 

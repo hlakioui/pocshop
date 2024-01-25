@@ -241,6 +241,8 @@
       <path value="$PROJECT_DIR$/vendor/sylius/sylius-rector" />
       <path value="$PROJECT_DIR$/vendor/sylius/plus-rbac-plugin" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sylius/shared-kernel" />
+      <path value="$PROJECT_DIR$/vendor/sylius/customer-service-plugin" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
