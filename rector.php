@@ -13,4 +13,6 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->paths([
         __DIR__ . '/src'
     ]);
+    $rectorConfig->sets([SyliusPlus::PLUS_RBAC_PLUGIN]);
+    $rectorConfig->sets([SyliusPlus::LOYALTY_PLUGIN]);
 };

@@ -63,4 +63,5 @@ return [
     Sylius\OnePageCheckoutPlugin\SyliusOnePageCheckoutPlugin::class => ['all' => true],
     Sylius\PlusRbacPlugin\SyliusPlusRbacPlugin::class => ['all' => true],
     Sylius\CustomerServicePlugin\SyliusCustomerServicePlugin::class => ['all' => true],
+    Sylius\LoyaltyPlugin\SyliusLoyaltyPlugin::class => ['all' => true],
 ];
