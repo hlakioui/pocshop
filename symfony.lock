@@ -217,6 +217,18 @@
     "knplabs/knp-menu-bundle": {
         "version": "v2.2.1"
     },
+    "knplabs/knp-snappy-bundle": {
+        "version": "1.9",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.5",
+            "ref": "c81bdcf4a9d4e7b1959071457f9608631865d381"
+        },
+        "files": [
+            "config/packages/knp_snappy.yaml"
+        ]
+    },
     "laminas/laminas-code": {
         "version": "3.4.1"
     },
@@ -599,11 +611,37 @@
             "config/routes/sylius_plus_rbac_plugin.yaml"
         ]
     },
+    "sylius/refund-plugin": {
+        "version": "1.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "0.4",
+            "ref": "a3f813f608c6f04bd7d0b4cefd73a96bf378c390"
+        },
+        "files": [
+            "config/packages/sylius_refund.yaml",
+            "config/routes/sylius_refund.yaml"
+        ]
+    },
     "sylius/registry": {
         "version": "v1.4.1"
     },
     "sylius/resource-bundle": {
         "version": "v1.4.4"
+    },
+    "sylius/return-plugin": {
+        "version": "0.3",
+        "recipe": {
+            "repo": "github.com/Sylius/SyliusRecipes",
+            "branch": "main",
+            "version": "0.3",
+            "ref": "97dee871054374844937752fb374f98dd7aafafc"
+        },
+        "files": [
+            "config/packages/sylius_return_plugin.yaml",
+            "config/routes/sylius_return_plugin.yaml"
+        ]
     },
     "sylius/sylius": {
         "version": "v1.3.6"

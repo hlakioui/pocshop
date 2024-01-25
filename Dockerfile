@@ -72,6 +72,12 @@ RUN set -eux; \
     bin/console sylius:install:assets --no-interaction; \
     bin/console sylius:theme:assets:install public --no-interaction
 
+# Download and install wkhtmltopdf
+RUN wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.buster_amd64.deb \
+    && dpkg -i wkhtmltox_0.12.6-1.buster_amd64.deb \
+    && apt-get install -f \
+    && rm wkhtmltox_0.12.6-1.buster_amd64.deb
+
 VOLUME /srv/sylius/var
 
 VOLUME /srv/sylius/public/media

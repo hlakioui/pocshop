@@ -12,6 +12,11 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sylius/loyalty-plugin" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sylius/multi-source-inventory-plugin" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sylius/multi-store-plugin" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/knplabs/knp-snappy" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/knplabs/knp-snappy-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/php-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sylius/refund-plugin" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sylius/return-plugin" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

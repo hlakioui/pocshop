@@ -17,4 +17,5 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->sets([SyliusPlus::LOYALTY_PLUGIN]);
     $rectorConfig->sets([SyliusPlus::MULTI_SOURCE_INVENTORY_PLUGIN]);
     $rectorConfig->sets([SyliusPlus::MULTI_STORE_PLUGIN]);
+    $rectorConfig->sets([SyliusPlus::RETURN_PLUGIN]);
 };

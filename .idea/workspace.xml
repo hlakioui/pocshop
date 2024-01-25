@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c064ba0-65bb-40fb-bdd5-5143cc46033a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/ORM/CustomerRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/ORM/OrderRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/ORM/PaymentRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/ORM/ShipmentRepository.php" afterDir="false" />
+    <list default="true" id="1c064ba0-65bb-40fb-bdd5-5143cc46033a" name="Changes" comment="sylius/multi-store-plugin">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pocshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pocshop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/_sylius.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/_sylius.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/Customer/CustomerRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/Order/OrderRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/Payment/PaymentRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/Shipping/ShipmentRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rector.php" beforeDir="false" afterPath="$PROJECT_DIR$/rector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Channel/Channel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Channel/Channel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Order/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Order/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,6 +279,11 @@
       <path value="$PROJECT_DIR$/vendor/sylius/loyalty-plugin" />
       <path value="$PROJECT_DIR$/vendor/sylius/multi-source-inventory-plugin" />
       <path value="$PROJECT_DIR$/vendor/sylius/multi-store-plugin" />
+      <path value="$PROJECT_DIR$/vendor/sylius/refund-plugin" />
+      <path value="$PROJECT_DIR$/vendor/sylius/return-plugin" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy-bundle" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
     </include_path>
   </component>
   <component name="ProjectId" id="2b7XdMPaOC1RArPUgeBzpFVhwrI" />
@@ -316,8 +322,16 @@
       <option name="presentableId" value="Default" />
       <updated>1705567179788</updated>
       <workItem from="1705567184664" duration="5501000" />
-      <workItem from="1706208230254" duration="2747000" />
+      <workItem from="1706208230254" duration="6721000" />
     </task>
+    <task id="LOCAL-00001" summary="sylius/multi-store-plugin">
+      <created>1706211593980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706211593980</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,5 +347,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sylius/multi-store-plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="sylius/multi-store-plugin" />
   </component>
 </project>

@@ -66,4 +66,7 @@ return [
     Sylius\LoyaltyPlugin\SyliusLoyaltyPlugin::class => ['all' => true],
     Sylius\MultiSourceInventoryPlugin\SyliusMultiSourceInventoryPlugin::class => ['all' => true],
     Sylius\MultiStorePlugin\SyliusMultiStorePlugin::class => ['all' => true],
+    Knp\Bundle\SnappyBundle\KnpSnappyBundle::class => ['all' => true],
+    Sylius\RefundPlugin\SyliusRefundPlugin::class => ['all' => true],
+    Sylius\ReturnPlugin\SyliusReturnPlugin::class => ['all' => true],
 ];
