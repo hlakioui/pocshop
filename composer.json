@@ -26,6 +26,7 @@
         "sylius/one-page-checkout-plugin": "^0.1.0",
         "sylius/paypal-plugin": "^1.5",
         "sylius/plus-rbac-plugin": "^0.3.0",
+        "sylius/shared-kernel": "^0.3.0",
         "sylius/sylius": "^1.12.11",
         "symfony/dotenv": "^5.4 || ^6.0",
         "symfony/flex": "^2.1",
