@@ -244,6 +244,7 @@
       <path value="$PROJECT_DIR$/vendor/sylius/shared-kernel" />
       <path value="$PROJECT_DIR$/vendor/sylius/customer-service-plugin" />
       <path value="$PROJECT_DIR$/vendor/sylius/loyalty-plugin" />
+      <path value="$PROJECT_DIR$/vendor/sylius/multi-source-inventory-plugin" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
