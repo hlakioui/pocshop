@@ -7,8 +7,6 @@ imports:
     - { resource: "@SyliusShopBundle/Resources/config/app/config.yml" }
     - { resource: "@SyliusPayPalPlugin/Resources/config/config.yaml" }
     
-    - { resource: "@SyliusPlusRbacPlugin/config/config.yaml" }
-    - { resource: "@SyliusMultiStorePlugin/config/config.yaml" }
 
 parameters:
     sylius_core.public_dir: '%kernel.project_dir%/public'
@@ -82,7 +80,7 @@ sylius_customer:
         customer:
             classes:
                 model: App\Entity\Customer\Customer
-                repository: App\Repository\Customer\CustomerRepository
+                repository: App\Doctrine\ORM\CustomerRepository
         customer_group:
             classes:
                 model: App\Entity\Customer\CustomerGroup
@@ -98,7 +96,7 @@ sylius_order:
         order:
             classes:
                 model: App\Entity\Order\Order
-                repository: App\Repository\Order\OrderRepository
+                repository: App\Doctrine\ORM\OrderRepository
         order_item:
             classes:
                 model: App\Entity\Order\OrderItem
@@ -117,13 +115,13 @@ sylius_payment:
         payment_method:
             classes:
                 model: App\Entity\Payment\PaymentMethod
-                repository: App\Repository\Payment\PaymentRepository
             translation:
                 classes:
                     model: App\Entity\Payment\PaymentMethodTranslation
         payment:
             classes:
                 model: App\Entity\Payment\Payment
+                repository: App\Doctrine\ORM\PaymentRepository
 
 sylius_payum:
     resources:
@@ -206,7 +204,7 @@ sylius_shipping:
         shipment:
             classes:
                 model: App\Entity\Shipping\Shipment
-                repository: App\Repository\Shipping\ShipmentRepository
+                repository: App\Doctrine\ORM\ShipmentRepository
         shipping_method:
             classes:
                 model: App\Entity\Shipping\ShippingMethod
