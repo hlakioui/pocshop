@@ -61,4 +61,5 @@ return [
     League\FlysystemBundle\FlysystemBundle::class => ['all' => true],
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
     Sylius\OnePageCheckoutPlugin\SyliusOnePageCheckoutPlugin::class => ['all' => true],
+    Sylius\PlusRbacPlugin\SyliusPlusRbacPlugin::class => ['all' => true],
 ];

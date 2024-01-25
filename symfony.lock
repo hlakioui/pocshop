@@ -533,6 +533,19 @@
     "sylius/paypal-plugin": {
         "version": "v1.0.1"
     },
+    "sylius/plus-rbac-plugin": {
+        "version": "0.3",
+        "recipe": {
+            "repo": "github.com/Sylius/SyliusRecipes",
+            "branch": "main",
+            "version": "0.3",
+            "ref": "7478fff648e9b77ad196263a7fec7c086b4d7059"
+        },
+        "files": [
+            "config/packages/sylius_plus_rbac_plugin.yaml",
+            "config/routes/sylius_plus_rbac_plugin.yaml"
+        ]
+    },
     "sylius/registry": {
         "version": "v1.4.1"
     },
