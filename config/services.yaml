@@ -2,7 +2,9 @@
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en_US
-
+    sylius.form.type.add_to_cart.validation_groups:
+        - sylius_loyalty
+        - sylius_multi_source_inventory
 services:
     # Default configuration for services in *this* file
     _defaults:
