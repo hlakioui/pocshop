@@ -73,10 +73,11 @@ RUN set -eux; \
     bin/console sylius:theme:assets:install public --no-interaction
 
 # Download and install wkhtmltopdf
-RUN wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.buster_amd64.deb \
-    && dpkg -i wkhtmltox_0.12.6-1.buster_amd64.deb \
-    && apt-get install -f \
-    && rm wkhtmltox_0.12.6-1.buster_amd64.deb
+RUN curl -L -o wkhtmltopdf.tar.xz https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz \
+&& tar -xf wkhtmltopdf.tar.xz \
+&& mv wkhtmltox/bin/wkhtmltopdf /usr/local/bin/wkhtmltopdf \
+&& chmod +x /usr/local/bin/wkhtmltopdf
+
 
 VOLUME /srv/sylius/var
 
